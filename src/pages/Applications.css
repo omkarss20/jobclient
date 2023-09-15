@@ -1,0 +1,35 @@
+/* Application Page Styles */
+
+.applications {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.application {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  width: calc(33.33% - 20px);
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.application h2 {
+  font-size: 1.5rem;
+  margin-top: 0;
+  color: #333;
+}
+
+.application p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.application hr {
+  margin: 10px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
